@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="icon" href="./imagenes/logo.png" type="image/icon" />
+    <link rel="stylesheet" href="./formulario.css" />
+</head>
+<body>
+    <nav>
+        <ul type="none" class="cabezera">
+            <li><img src="./imagenes/logo.png" width="100px" /></li>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./contanto.html">Sobre nosostros</a></li>
+            <li><a href="./formulario.html">Formulario</a></li>
+          </ul>
+    </nav>
+
+    <section>
+        <h1>Formulario</h1> <br>
+
+        <form>
+            <label for="nombre">Nombre</label> 
+            <input type="text" name="nombre" value=""> <br>
+
+            <label for="apellidos">Apellidos</label>
+            <input type="text" name="apellidos" value=""> <br>
+
+            <label for="contrasena">Contrasena</label>
+            <input type="password" name="contrasena" value=""> <br>
+
+            <label for="dni">dni</label>
+            <input type="text" name="dni" value=""> <br>
+
+            <label for="domicilio">domicilio</label>
+            <input type="text" name="domicilio" value=""> <br>
+
+            <label for="codigoPostal">codigo postal</label>
+            <input type="text" name="codigoPostal" value=""> <br>
+
+            <label for="sexo">Sexo</label> <br>
+            <fieldset>
+                <input type="radio" name="sexo" type="checkbox" value="hombre"/> 
+                <label for="hombre">Hombre</label> <br>
+                <input type="radio" name="sexo" type="checkbox" value="mujer"/> 
+                <label for="mujer">Mujer</label> <br>
+            </fieldset>
+
+
+            <fieldset>
+                <input type="submit" name="guardar" value="guardar cambios" />
+                <input type="reset" name="borrar" value="borrar cambios" />
+            </fieldset>
+        </form>
+    </section>
+
+    <footer class="pie">
+        <p>© Rincón Artesanal - Todos los derechos reservados.</p>
+        <p>Todas las fotos realizadas por @pekechia CCBY-SA</p>
+        <article>
+          <div>
+            <img src="./imagenes/snapchat.jpg" />
+          </div>
+          <div>
+            <img src="./imagenes/facebook.jpg" />
+          </div>
+          <div>
+            <img src="./imagenes/twitter.jpg" />
+          </div>
+        </article>
+      </footer>
+</body>
+</html>

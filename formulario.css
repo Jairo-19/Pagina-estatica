@@ -1,0 +1,71 @@
+/* TIPO DE LETRA GENERICO */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lobster&display=swap');
+
+body{
+    font-family: 'Lexend';
+    background-color: #fff8e7;
+}
+
+/* DIFERENTES ESTILOS PARA EL "MENU" DONDE LO MAS IMPORTANTE ES EL PADDING QUE LO UTILIZO PARA HACER LA CAJA MAS GRANDE  */
+nav{
+    background-color:  #fff8e7;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+/* PARA QUE LA LISTA APAREZCA EN HORIZONTAL Y SU DISTRIBUCION */
+.cabezera{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* ESTILOS PARA LOS ENLACES Y RECARCAR "NONE" PARA QUITAR LO SUBRAYADO */
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* ESTILOS PARA LOS ENLACES CUANDO PASAMOS POR ENCIMA CON EL RATON */
+a:hover {
+    background-color: #ec7618;
+    font-size: 35px;
+}
+
+/* ESTILOS PARA EL TITULO */
+h1{
+    font-family: "Sigmar";
+    color: #ec7618;
+    font-size: 50px;
+}
+
+/* PARA QUE ESTEN MAS SEPARADOS*/
+input{
+    margin-top: 20px;
+}
+
+/* REGLAS DEL CONTENEDOR PADRE  */
+section{
+    font-size: 20px;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0 auto;
+
+}
+
+/* PARA QUE EL PIE DE PAGINA APAREZCA EN HORIZONTAL Y SU CON SU RESPECTIBA DISTRIBUCION */
+.pie{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* PARA QUE LAS IMAGEN DE LAS REDES SOCIALES APAREZCA DE HORMA HORIZONTAL  */
+footer article{
+    display: flex;
+}

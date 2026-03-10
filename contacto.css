@@ -1,0 +1,87 @@
+/* TIPO DE LETRA PARA TITULOS */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lobster&family=Sigmar&display=swap');
+
+/* TIPO DE LETRA GENERICO */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lobster&display=swap');
+
+/* DIFERENTES ESTILOS PARA EL "MENU" DONDE LO MAS IMPORTANTE ES EL PADDING QUE LO UTILIZO PARA HACER LA CAJA MAS GRANDE  */
+nav{
+    background-color:  #fff8e7;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+/* PARA QUE LA LISTA APAREZCA EN HORIZONTAL Y SU DISTRIBUCION */
+.cabezera{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* ESTILOS PARA LOS ENLACES Y RECARCAR "NONE" PARA QUITAR LO SUBRAYADO */
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* ESTILOS PARA LOS ENLACES CUANDO PASAMOS POR ENCIMA CON EL RATON */
+a:hover {
+    background-color: #ec7618;
+    font-size: 35px;
+}
+
+/* ESTILOS PARA EL TITULO */
+h1{
+    font-family: "Sigmar";
+    color: #ec7618;
+    font-size: 50px;
+}
+
+/* CONTENEDOR DONDE VAN LOS OTROS 2 CONTENEDORES MAS PEQUEÑOS DE FORMA HORIZONTAL Y SU RESPECTIBA DISTRIBUCION */
+.padre{
+display: flex;
+justify-content: space-evenly;
+}
+
+/* CONTENEDOR DEL TEXTO */
+.contenedor1{
+    text-align: center;
+    width: 800px;
+}
+
+/* CONETENEDOR DE LA IMAGEN */
+.contenedor2{
+    border-radius: px;
+    padding: 200px;
+}
+
+/* ESTILO DEL BORDE DE LA IMAGEN PARA QUE ESTE DE FORMA REDONDEADA */
+.imagen{
+    border-radius: 10px;
+}
+
+/* TAMAÑO DEL TEXTO DE LA DESCRIPCION */
+.descripcion{
+font-size: 20px;
+}
+
+/* ESTILOS GENERICOS PARA TODA LA PAGINA */
+body{
+    font-family: 'Lexend';
+    background-color:  #fff8e7;
+}
+
+/* PARA QUE EL PIE DE PAGINA APAREZCA EN HORIZONTAL Y SU CON SU RESPECTIBA DISTRIBUCION */
+.pie{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* PARA QUE LAS IMAGEN DE LAS REDES SOCIALES APAREZCA DE HORMA HORIZONTAL  */
+footer article{
+    display: flex;
+    
+}

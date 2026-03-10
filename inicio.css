@@ -1,0 +1,114 @@
+/* TIPO DE LETRA PARA TITULOS */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lobster&family=Sigmar&display=swap');
+
+/* TIPO DE LETRA GENERICO */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Lobster&display=swap');
+
+body{
+    font-family: 'Lexend';
+    background-color: #fff8e7;
+}
+
+/* PARA QUE LA LISTA APAREZCA EN HORIZONTAL Y SU DISTRIBUCION */
+.cabezera{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* DIFERENTES ESTILOS PARA EL "MENU" DONDE LO MAS IMPORTANTE ES EL PADDING QUE LO UTILIZO PARA HACER LA CAJA MAS GRANDE  */
+nav{
+   background-color: #ec7618;
+   border-radius: 10px;
+   padding: 25px;
+   font-size: 30px;
+}
+
+/*  IMAGEN PRINCIPAL */
+.portada{
+    text-align: center;
+    background-color: #fff8e7;
+}
+
+/* ESTILOS PARA LOS ENLACES Y RECARCAR "NONE" PARA QUITAR LO SUBRAYADO */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ESTILOS PARA LOS ENLACES CUANDO PASAMOS POR ENCIMA CON EL RATON */
+a:hover {
+    background-color: #fff8e7;
+    font-size: 35px;
+}
+
+/* ESTILOS PARA EL TITULO */
+h1{
+    font-family: "Sigmar";
+    color: #ec7618;
+    font-size: 40px;
+}
+
+/* CREO UNA LINEA PARA SEPAREAR LOS CONTENIDOS DE MANERA VISUAL */
+.linea {
+    border-top: 2px solid black;
+    margin: 20px 0;
+}
+
+/* CONTENEDOR DONDE VAN OTROS CONTENEDORES MAS PEQUEÑOS DE FORMA HORIZONTAL Y SU RESPECTIBA DISTRIBUCION */
+.horizontal1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* ESTILOS DE LOS CONTENEDORES QUE ALVERGAN LOS 3 PRIMEROS PRODUCTOS Y ESTAN JUNTOS PORQUE AL COMPARTIR EL MISMO CODIGO PODEMOS AHORRAR CODIGO 
+MENCIONANDOLOS*/
+.producto1, .producto2, .producto3{
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    width: 600px;
+    background-color: white;
+}
+
+
+
+.horizontal2{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.producto4{
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.producto5{
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.producto6{
+    margin: 20px;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+    background-color: white;
+}
+
+/* PARA QUE EL PIE DE PAGINA APAREZCA EN HORIZONTAL Y SU CON SU RESPECTIBA DISTRIBUCION */
+.pie{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* PARA QUE LAS IMAGEN DE LAS REDES SOCIALES APAREZCA DE HORMA HORIZONTAL  */
+footer article{
+    display: flex;
+}
